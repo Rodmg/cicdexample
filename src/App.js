@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Rodrigo Méndez</p>
-        <p>Hello World</p>
+        <p>Hello World 2</p>
         <p>{count}</p>
         <button onClick={handleIncrease}>+</button>
         <button onClick={handleDecrease}>-</button>
