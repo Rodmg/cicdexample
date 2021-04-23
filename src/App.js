@@ -7,13 +7,13 @@ function App() {
 
   const handleIncrease = () => setCount(count + 1);
   const handleDecrease = () => setCount(count - 1);
-
+  console.log("test");
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Rodrigo Méndez</p>
-        <p>Hello World 2</p>
+        <p>Hello World</p>
         <p>{count}</p>
         <button onClick={handleIncrease}>+</button>
         <button onClick={handleDecrease}>-</button>
